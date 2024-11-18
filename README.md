@@ -1,6 +1,6 @@
 OASIS INFOBYTE INTERNSHIP
 
-This repository contains the taaks I have completed for my Oasis Infobyte Internship over a month in Java Development
+This repository contains the tasks I have completed for my Oasis Infobyte Internship over a month in Java Development
 
 TASK 1 -  Online Reservation System
 
@@ -44,7 +44,7 @@ If a user has chosen to edit their details, they can modify their profile and pa
 
 If a user has chosen to start their examination, the instructions are displayedIf the user is unable to complete the exam within 20 minutes the exam will auto-submitted and the exam will end there. The questions are displayed one after the other and the answer for each are checked against the correct answers. The percentage is decided based on their answers and is displayed to the user on completion of the examination. If the user scores more than 40%, they pass the examination else they fail. After the completion of the exam, the user has to option to either edit their profile or exit the system.
 
-The user can exit the system whenever required.
+
 
 
 
