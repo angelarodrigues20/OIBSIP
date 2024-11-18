@@ -1,18 +1,5 @@
-## Getting Started
+TASK 2 - Number Guessing Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Number Guessing Game is short and simple console game where the user attempts to guess a randomly generated number within a specified range. A random number between 1 and 100 is generated using the ‘random’ class. Rules regarding the game are displayed to the user. The user is given only 10 attempts and a score system is set in place in which the score is based on the number of attempts. More the attempts, lower the score and lesser the attempts, higher the score. The highest score is 100.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The user is prompted to enter a random guess. Messages are displayed as to whether the entered guess is higher or lower than the correct number. The game continues under the user guessing the number. On the correct guess, the message “Correct match” along with the score is displayed and the game ends. The game also ends after the user isn’t able to guess the number and thus has used all its attempts.
