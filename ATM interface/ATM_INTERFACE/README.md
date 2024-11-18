@@ -1,18 +1,9 @@
-## Getting Started
+TASK 3 - ATM Interface
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This ATM Interface project is a console-based application built using java and mySQL database. When the system starts the user is prompted with username and user pin. On entering the details successfully, then ATM functionalities are unlocked. With every unsuccessful login, a message regarding the same will be displayed and the user will be prompted to enter details again.
 
-## Folder Structure
+After the user has successfully logged in, they are given options as to whether they want to withdraw, deposit or transfer money, retrieve the transaction history or exit the system. If a user has chosen to retrieve the transaction history, the datils of the same will be displayed.
 
-The workspace contains two folders by default, where:
+If a user has chosen to withdraw money, the amount to be withdrawn is to be entered by the user. On successful withdrawal, the users balance is updated in the database and the message for the same as well as the updated balance, fetched from the database, is displayed to the user. Details of any exception that may occur is displayed. If the withdrawal amount entered by the user exceeds their current balance, the message for the same is displayed and no change occurs in the database. If a user has chosen to deposit money, the amount to be deposited is to be entered by the user. On successful deposit, the users balance is updated in the database and the message for the same as well as the updated balance, fetched from the database, is displayed to the user. Details of any exception that may occur is displayed.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+If a user has chosen to transfer money to another account, the accounts username the user wants to transfer money to and the amount to be deposited is to be entered by the user. On successful transfer, the balance of both the accounts involved in the transaction are updated in the database and the message for the same as well as the updated balance, fetched from the database, is displayed to the user. Details of any exception that may occur is displayed. The user can exit the system whenever required.
