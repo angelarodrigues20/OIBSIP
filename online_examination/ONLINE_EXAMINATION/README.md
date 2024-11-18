@@ -1,18 +1,7 @@
-## Getting Started
+TASK 4 - Online Examination
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This ATM Interface project is an application built using java and mySQL database. When the system starts the user is prompted with student ID and password. On entering the details successfully, then - Online Examination functionalities are unlocked. With every unsuccessful login, a message regarding the same will be displayed and the user will be prompted to enter details again.
 
-## Folder Structure
+After the user has successfully logged in, they are given options as to whether they want to edit their profile, start the examination or exit the system i.e log out. These options are prompted throughout the program till the user decides to exit the system. If a user has chosen to edit their details, they can modify their profile and password. If the modification is successful, a message regarding the same will be displayed. . Details of any exception that may occur is displayed.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+If a user has chosen to start their examination, the instructions are displayedIf the user is unable to complete the exam within 20 minutes the exam will auto-submitted and the exam will end there. The questions are displayed one after the other and the answer for each are checked against the correct answers. The percentage is decided based on their answers and is displayed to the user on completion of the examination. If the user scores more than 40%, they pass the examination else they fail. After the completion of the exam, the user has to option to either edit their profile or exit the system.
